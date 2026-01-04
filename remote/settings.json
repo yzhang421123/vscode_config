@@ -1,0 +1,30 @@
+{
+    "go.gopath": "/root/go",
+    "go.goroot": "/usr/local/go",
+    "go.useLanguageServer": true,
+    "go.formatTool": "gofmt",
+    "go.formatOnSaveMode": "file",
+    // "go.lintTool": "golint",
+    "go.testOnSave": true,
+    "go.coverOnSave": true,
+    "go.coverageDecorator": { 
+        "type": "gutter",
+        "coveredHighlightColor": "rgba(0,0,0,0)",
+        "uncoveredHighlightColor": "rgba(0,0,0,0)"
+		// "type":"gutter"
+    
+    },
+    "[go]": {
+        "editor.defaultFormatter": "golang.go",
+        "editor.formatOnSave": true
+    },
+
+	"clangd.path": "/usr/bin/clangd",
+	"terminal.integrated.profiles.linux": {
+    "bash-login": {
+      "path": "/bin/bash",
+	  "args": ["-i"]
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "bash-login"
+}

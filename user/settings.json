@@ -1,0 +1,93 @@
+{
+    "editor.fontSize": 20,
+    "security.allowedUNCHosts": [
+        "192.168.215.128"
+    ],
+    "outline.showBooleans": false,
+    "outline.showArrays": false,
+    "outline.showVariables": false,
+    "outline.showEnums": false,
+    "outline.showConstants": false,
+    "outline.showConstructors": false,
+    "breadcrumbs.symbolSortOrder": "name",
+
+    "highlightwords.box": {
+        "light": false,
+        "dark": false
+    },
+
+    "highlightwords.defaultMode": 1,
+
+    "highlightwords.showSidebar": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
+    "editor.largeFileOptimizations": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "editor.detectIndentation": false,
+    "editor.renderControlCharacters": true,
+
+	// "editor.tokenColorCustomizations": {
+    //     "textMateRules": [
+    //         {
+    //             "scope": "keyword.other.interface.c",
+    //             "settings": {
+    //                 "foreground": "#000000",
+    //                 "fontStyle": ""
+    //             }
+    //         }
+    //     ]
+    // },
+
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+
+    "editor.inlineSuggest.enabled": true,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.path": "clangd.exe",
+    "clangd.arguments": [
+        "--background-index",
+        "--clang-tidy",
+        "--completion-style=detailed",
+        "--header-insertion=iwyu",
+        "--log=verbose"
+    ],
+
+    "git.path": "D:\\Software\\Git\\bin\\git.exe",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": "C:\\Windows\\System32\\cmd.exe",
+            "args": []
+        },
+        "Git Bash": {
+            "path": "D:\\Software\\Git\\git-bash.exe",
+            "source": "Git Bash",
+            "args": ["--login", "-i"],
+            "icon": "git"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.tabs.title": "${profileName}",
+    "terminal.integrated.tabs.showActiveTerminal": false,
+    "chat.viewSessions.orientation": "stacked",
+    "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 16,
+    "remote.SSH.remotePlatform": {
+        "goServer(192.168.163.128:8022)": "linux"
+    },
+
+    // 可选：只在 Go 文件启用自动保存格式化
+    "[go]": {
+        "editor.formatOnSave": true
+	},
+	"python.createEnvironment.trigger": "off"
+}
